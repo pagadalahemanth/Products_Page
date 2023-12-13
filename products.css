@@ -1,0 +1,121 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#tabs {
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    text-align: center;
+    margin-top: 30px;
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;   
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    
+}
+
+li {
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;
+    margin-right: 5px;
+    background-color: #f4f4f4;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.product-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card img {
+    width:250px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.badge {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+.vendor {
+    font-style: italic;
+    color: #555
+}
+.main{
+    /* width: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 130px;
+}
+.title{
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+
+}
+.badge {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+}
+.price-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.compare-at-price{
+    text-decoration: line-through;
+    color: #767575;
+}
+.save{
+    color: red;
+}
+.add-to-cart-button{
+    width: 250px;
+    height: 35px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
